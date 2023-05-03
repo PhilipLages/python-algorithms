@@ -27,8 +27,8 @@ def is_anagram(first_string, second_string):
     str1 = first_string.lower()
     str2 = second_string.lower()
 
-    if first_string == '' and second_string == '':
-        return ('', '', False)
+    if first_string == "" and second_string == "":
+        return ("", "", False)
 
     # Convert strings to sorted lists of characters
     sorted_str1 = merge_sort(str1)
